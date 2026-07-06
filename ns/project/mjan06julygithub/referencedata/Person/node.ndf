@@ -312,6 +312,8 @@
       <value name="modifiable">true</value>
     </record>
   </record>
+  <value name="description"></value>
+  <value name="node_comment"></value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -353,8 +355,8 @@
     <value name="packageName">MJAN06JulyGithubProject</value>
     <value name="descriptorName">project.mjan06julygithub.referencedata:Person</value>
     <byte name="sourceBytes">
-TmFtZSxBZ2UsU3RyZWV0LENpdHksU3RhdGUsWmlwQ29kZSxDb3VudHJ5CkFtaXQgU2hhcm1hLDI4LDIyMUIgQmFrZXIgU3RyZWV0LExvbmRvbixHcmVhdGVyIExvbmRvbixOVzEgNlhFLFVLCkpvaG4gRG9lLDMwLDEyMyBNYWluIFN0LE5ldyBZb3JrLE5ZLDEwMDAxLFVTQQpQcml5YSBOYWlyLDI1LE1HIFJvYWQsQmVuZ2FsdXJ1LEthcm5hdGFrYSw1NjAwMDEsSW5kaWEKSGlyb2sgTmF0aCwzNSxTaGluanVrdS1rdSxUb2t5byxUb2t5bywxNjAtMDAyMixKYXBhbgo=    </byte>
-    <null name="description"/>
+TmFtZSxBZ2UsU3RyZWV0LENpdHksU3RhdGUsWmlwQ29kZSxDb3VudHJ5CkFtaXQgU2hhcm1hMSwyOCwyMjFCIEJha2VyIFN0cmVldCxMb25kb24sR3JlYXRlciBMb25kb24sTlcxIDZYRSxVSwpKb2huIERvZSwzMCwxMjMgTWFpbiBTdCxOZXcgWW9yayxOWSwxMDAwMSxVU0EKUHJpeWEgTmFpciwyNSxNRyBSb2FkLEJlbmdhbHVydSxLYXJuYXRha2EsNTYwMDAxLEluZGlhCkhpcm9rIE5hdGgsMzUsU2hpbmp1a3Uta3UsVG9reW8sVG9reW8sMTYwLTAwMjIsSmFwYW4=    </byte>
+    <value name="description"></value>
     <value name="columnDelimiter">,</value>
     <value name="releaseCharacter">"</value>
     <array name="columnNames" type="value" depth="1">
