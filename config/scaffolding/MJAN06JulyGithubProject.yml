@@ -7,6 +7,24 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: DADA_GlobalVariable1
+  gitServerName: SIQAGitHub
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+services:
+- serviceName: project.mjan06julygithub.integrations:readRef
+  packages:
+  - name: MJAN06JulyGithubProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: project.mjan06julygithub.referencedata:Person
+  packages:
+  - name: MJAN06JulyGithubProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
